@@ -1,0 +1,31 @@
+app:
+  # Demo accounts have published passwords and must never exist in production
+  # unless an operator deliberately opts in for a staging demo.
+  demo:
+    seed-enabled: ${DEMO_SEED_ENABLED:false}
+  jwt:
+    secret: ${JWT_SECRET:}
+
+spring:
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/proxilink}
+    username: ${DATABASE_USER:proxilink}
+    password: ${DATABASE_PASSWORD:}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  h2:
+    console:
+      enabled: false
+  cache:
+    type: ${CACHE_TYPE:caffeine}
+
+management:
+  endpoint:
+    health:
+      show-details: never
+
+logging:
+  level:
+    com.proxilink: INFO

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProxiLink</string>
+    <string name="ble_channel_name">ProxiLink proximity monitoring</string>
+    <string name="ble_channel_description">Keeps scanning for nearby ProxiLink devices while monitoring is enabled.</string>
+    <string name="ble_service_title">ProxiLink monitoring active</string>
+    <string name="ble_service_text">Scanning for nearby registered devices</string>
+</resources>

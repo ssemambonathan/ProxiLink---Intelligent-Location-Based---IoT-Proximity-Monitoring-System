@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:proxilink_test;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DB_CLOSE_DELAY=-1;DEFAULT_NULL_ORDERING=HIGH
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+  cache:
+    type: simple
+
+app:
+  demo:
+    seed-enabled: false
+  rate-limit:
+    general-per-minute: 10000
+    login-per-minute: 1000
+  retention:
+    cleanup-enabled: false
+
+logging:
+  level:
+    root: WARN
+    com.proxilink: INFO

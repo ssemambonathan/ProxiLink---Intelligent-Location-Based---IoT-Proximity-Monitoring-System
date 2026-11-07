@@ -1,0 +1,11 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    show-sql: false
+
+logging:
+  level:
+    com.proxilink: DEBUG

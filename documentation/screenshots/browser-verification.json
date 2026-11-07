@@ -1,0 +1,395 @@
+[
+  {
+    "name": "01-overview",
+    "route": "/",
+    "url": "/",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Overview",
+      "Overview",
+      "7-day activity",
+      "Fleet by category",
+      "Network map",
+      "Recent events"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nCONSOLE\n\nOverview\nLive\n1\nPA\nProxiLink Admin\n\nMONITOR\n\nOverview\n\nFleet health, proximity activity and platform status at a glance. Every figure comes from the ProxiLink API.\n\nAwaiting data\nRefresh\nLive map\n7-day activity\n\nProximity and location events per day, with unique devices reporting\n\nProximity\nLocation\nDevices\nFleet by category\n\nRegistered devices\n\nNetwork map\n\nActive devices with a reported GPS fix\n\nOpen map\nDevice positions unavailable\nOpenStreetMap tiles · RSSI bands are estimates\nRecent events\n\nNewest first, organization-scoped\n\nProximity\nLocation\nSystem status\nChecked 7 Nov 2026, 15:42:21\nFleet statuses refresh every 30 seconds · WS connection state is shown in the top bar\nOnline bands classify signal strength, not distance",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Open navigation",
+      "1",
+      "PA\nProxiLink Admin",
+      "Refresh",
+      "Live map",
+      "Proximity",
+      "Location"
+    ],
+    "screenshot": "documentation\\screenshots\\01-overview.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "02-live",
+    "route": "/live",
+    "url": "/live",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Live monitoring"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nCONSOLE\n\nLive monitoring\nConnecting\nPA\nProxiLink Admin",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Open navigation",
+      "Notifications",
+      "PA\nProxiLink Admin"
+    ],
+    "screenshot": "documentation\\screenshots\\02-live.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "03-map",
+    "route": "/map",
+    "url": "/map",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Interactive map",
+      "Interactive map",
+      "Filters",
+      "Legend",
+      "Visible devices"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nCONSOLE\n\nInteractive map\nLive\n1\nPA\nProxiLink Admin\n\nMONITOR\n\nInteractive map\n\nOpenStreetMap tiles, status-coloured markers and optional GPS trails. Filter the fleet, fit the view, then inspect a device.\n\nRefresh\nLive monitoring\nFilters\n\nServer-side device query\n\nSearch devices\nStatus\nAll statuses\nOnline\nNearby\nOut of range\nOffline\nUnregistered\nInactive\nCategory\nAll categories\nAsset\nSensor\nWearable\nInfrastructure\nGateway\nOther\n\n2 mapped · 2 matching\n\nFit to devices\nTrail for selected\nLegend\n\nMarker colour = status\n\nOnline\nNearby\nOut of range\nOffline\nUnregistered\n\nGLYPH = CATEGORY\n\nAsset\nSensor\nWearable\nInfrastructure\nGateway\nOther\n\nMarkers only render for devices with a reported GPS position. RSSI bands are estimates, not metric distances.\n\nVisible devices\n\nClick to inspect\n\n2\nSimulated ESP32 Beacon\n52.2298, 21.0122\n27 minutes ago\nSmoke Beacon\n52.2297, 21.0122\n1 hour ago\n Leaflet | © OpenStreetMap contributors\nSelect a marker or list entry to open device details.\nTiles © OpenStreetMap contributors · no API keys",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Open navigation",
+      "1",
+      "PA\nProxiLink Admin",
+      "Refresh",
+      "Live monitoring",
+      "Fit to devices",
+      "Show GPS trail for selected device",
+      "Simulated ESP32 Beacon\n52.2298, 21.0122\n27 minutes ago",
+      "Smoke Beacon\n52.2297, 21.0122\n1 hour ago",
+      "Zoom in",
+      "Zoom out",
+      "Fit map to devices"
+    ],
+    "screenshot": "documentation\\screenshots\\03-map.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "04-devices",
+    "route": "/devices",
+    "url": "/devices",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Devices"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nCONSOLE\n\nDevices\nLive\n1\nPA\nProxiLink Admin",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Open navigation",
+      "1",
+      "PA\nProxiLink Admin"
+    ],
+    "screenshot": "documentation\\screenshots\\04-devices.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "05-analytics",
+    "route": "/analytics",
+    "url": "/analytics",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Analytics",
+      "Analytics",
+      "Activity trend · 7 days",
+      "Proximity level distribution",
+      "Fleet availability",
+      "Most active devices",
+      "Category breakdown"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nCONSOLE\n\nAnalytics\nLive\n1\nPA\nProxiLink Admin\n\nMANAGE\n\nAnalytics\n\nEvent volume, proximity band distribution and the devices that generate the most telemetry over the selected window.\n\n7d\n14d\n30d\nRefresh\nWindow: last 7 days · Proximity + location events\nUpdated just now\n7d total\n\n9\n\nPROXIMITY EVENTS\n\n7d total\n\n1\n\nLOCATION EVENTS\n\nUnique / day\n\n2\n\nPEAK REPORTING DEVICES\n\n0 / 2\n\n0%\n\nONLINE RATIO\n\nActivity trend · 7 days\n\nProximity vs location event volume with the number of unique reporting devices\n\nProximity\nLocation\nDevices\n1 Nov\n2 Nov\n3 Nov\n4 Nov\n5 Nov\n6 Nov\n7 Nov\n0\n3\n6\n9\n12\n0\n1\n2\n3\n4\nProximity level distribution\n\nServer-classified bands over the window\n\n0\n2\n4\n6\n8\nImmediate\nVery close\nNearby\nFar\nOut of range\n\nBands derive from smoothed RSSI thresholds; distance cannot be inferred reliably from a single RSSI value.\n\nFleet availability\n\nOnline vs offline device ratio\n\n0%\nONLINE\nOnline\n0\nOffline\n2\n\nOffline is set by the backend monitor after the configured timeout without communication.\n\nMost active devices\n\nEvent count over 7 days\n\n#\tDEVICE\tEVENTS\tSHARE\n1\tSimulated ESP32 Beacon\t6\t\n\n2\tSmoke Beacon\t3\t\nCategory breakdown\n\nCurrent fleet composition\n\nSensor\n2\nImmediate",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Open navigation",
+      "1",
+      "PA\nProxiLink Admin",
+      "7d",
+      "14d",
+      "30d",
+      "Refresh"
+    ],
+    "screenshot": "documentation\\screenshots\\05-analytics.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "06-profile",
+    "route": "/profile",
+    "url": "/profile",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Profile",
+      "Profile & session",
+      "Operator identity",
+      "ProxiLink Admin",
+      "Session",
+      "Connection targets"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nCONSOLE\n\nProfile\nLive\n1\nPA\nProxiLink Admin\n\nACCOUNT\n\nProfile & session\n\nYour identity, roles and console connection. Role gating is decoded from the access token for navigation; the backend enforces every request.\n\nNotifications (1)\nOperator identity\n\nIssued by the ProxiLink auth service\n\nPA\nProxiLink Admin\n\nadmin@proxilink.dev\n\nAdministrator\nADMIN\nUSER\nEnabled\nOrganization\nAcme Labs\nAccount ID\n2929bb1c-c967-46d9-bac8-9ad07b2fb2ed\nMember since\n7 Nov 2026, 14:18:33\nAccess level\nADMIN — organization + platform administration\nSession\n\nShort-lived access token with rotating refresh\n\nAccess token expires\nin 29 minutes\n7 Nov 2026, 16:12:14\nRefresh strategy\nSingle-flight POST /auth/refresh on 401; tokens rotate\nStorage\nlocalStorage (demo — XSS-readable)\nRealtime channel\nJWT handshake, token never logged\nSign out\n\nSigning out revokes the refresh token server-side when reachable, then clears local storage.\n\nConnection targets\n\nResolved at runtime — origin-relative by default\n\nREST base\n/api/v1\nWebSocket endpoint\nws://localhost:5173/ws\nMap tiles\nOpenStreetMap\nAPI contract\nv1 · paginated JSON · ISO-8601 UTC\n\nThe access token is appended to the WebSocket query string only inside the client at connect time; it is intentionally omitted from this page and from logs.",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Open navigation",
+      "1",
+      "PA\nProxiLink Admin",
+      "Notifications (1)",
+      "Sign out"
+    ],
+    "screenshot": "documentation\\screenshots\\06-profile.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "07-admin-users",
+    "route": "/admin/users",
+    "url": "/admin/users",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Users",
+      "Users",
+      "Operator accounts"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nCONSOLE\n\nUsers\nLive\n1\nPA\nProxiLink Admin\n\nADMINISTRATION\n\nUsers\n\nEnable or disable operator accounts and adjust roles. The backend rejects disabling or demoting your own account.\n\n2 accounts\nRefresh\nOperator accounts\n\nRole changes take effect on the account's next token refresh.\n\nSearch users\nOPERATOR\tORGANIZATION\tROLES\tCREATED\tENABLED\tACCESS LEVEL\n\nP\n\nProxiLink Admin\nYOU\n\nadmin@proxilink.dev\n\n\tAcme Labs\t\nADMIN\nUSER\n\t7 Nov 2026\n1 hour ago\n\t\nEnabled\n\t\nUSER\nADMIN\n\nSelf-demotion is rejected by the server.\n\n\n\nD\n\nDemo Operator\n\ndemo@proxilink.dev\n\n\tAcme Labs\t\nUSER\n\t7 Nov 2026\n1 hour ago\n\t\nEnabled\n\t\nUSER\nADMIN\n\n1–2 of 2\n\nRows per page\n10 / page\n20 / page\n50 / page\n100 / page\nPrev\n1\n\nEnabling/disabling and role changes are audited. USER accounts are scoped to their organization and cannot open Administration routes; ADMIN accounts see all organizations. The API enforces both even if the UI is bypassed.",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Open navigation",
+      "1",
+      "PA\nProxiLink Admin",
+      "Refresh",
+      "Disable admin@proxilink.dev",
+      "Disable demo@proxilink.dev",
+      "Prev",
+      "1",
+      "Next page"
+    ],
+    "screenshot": "documentation\\screenshots\\07-admin-users.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "08-admin-audit",
+    "route": "/admin/audit",
+    "url": "/admin/audit",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Audit log"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nCONSOLE\n\nAudit log\nConnecting\nPA\nProxiLink Admin",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Open navigation",
+      "Notifications",
+      "PA\nProxiLink Admin"
+    ],
+    "screenshot": "documentation\\screenshots\\08-admin-audit.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "09-admin-settings",
+    "route": "/admin/settings",
+    "url": "/admin/settings",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Settings"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nCONSOLE\n\nSettings\nConnecting\nPA\nProxiLink Admin",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Open navigation",
+      "Notifications",
+      "PA\nProxiLink Admin"
+    ],
+    "screenshot": "documentation\\screenshots\\09-admin-settings.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "10-overview-mobile",
+    "route": "/",
+    "url": "/",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Overview",
+      "Overview",
+      "7-day activity",
+      "Fleet by category",
+      "Network map",
+      "Recent events"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nOverview\nLive\n1\nPA\n\nMONITOR\n\nOverview\n\nFleet health, proximity activity and platform status at a glance. Every figure comes from the ProxiLink API.\n\nRefresh\nLive map\n7-day activity\n\nProximity and location events per day, with unique devices reporting\n\nFleet by category\n\nRegistered devices\n\nNetwork map\n\nActive devices with a reported GPS fix\n\nOpen map\nDevice positions unavailable\nOpenStreetMap tiles · RSSI bands are estimates\nRecent events\n\nNewest first, organization-scoped\n\nProximity\nLocation\nSystem status\nChecked 7 Nov 2026, 15:43:29\nFleet statuses refresh every 30 seconds · WS connection state is shown in the top bar\nOnline bands classify signal strength, not distance",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Open navigation",
+      "1",
+      "PA",
+      "Refresh",
+      "Live map",
+      "Proximity",
+      "Location"
+    ],
+    "screenshot": "documentation\\screenshots\\10-overview-mobile.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "11-live-mobile",
+    "route": "/live",
+    "url": "/live",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Live monitoring",
+      "Live monitoring",
+      "Realtime channel",
+      "Live devices",
+      "Latest proximity events",
+      "Latest location events"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nLive monitoring\nLive\n1\nPA\n\nMONITOR\n\nLive monitoring\n\nThe realtime channel fans out proximity, location and device-status frames. This view merges those frames with a REST snapshot.\n\nRefresh snapshot\nOpen map\nRealtime channel\nLive\n\nWebSocket connected. Receiving realtime frames.\n\nAttempt 0\nLast frame awaiting first frame\nServer time 7 Nov 2026, 15:43:40\nBuffered 0\nReconnect\nPause feed\nHeartbeat ping every 25s\nExponential backoff 1–30s\nToken refresh on reconnect\n/ws?token=…\nFrames: hello · proximity.event · location.event · device.status · notification\n\nDEVICES IN SNAPSHOT\n\n2\n\nONLINE\n\n0\n\nNEARBY BAND\n\n0\n\nOFFLINE\n\n2\n\nLive devices\n\nStatus, RSSI and last communication, updated by device.status frames\n\n2 devices\nDEVICE\tCATEGORY\tSTATUS\tSIGNAL\tOWNER\tLAST COMMUNICATION\tDETAILS\n\nSimulated ESP32 Beacon\nesp32-sim-001\n\tSensor\t\nOffline\t\n-63 dBm\n\tDemo Operator\t28 minutes ago\n7 Nov 2026, 15:15:59\n\tInspect\n\nSmoke Beacon\nSMOKE-001\n\tSensor\t\nOffline\t\n-49 dBm\n\tProxiLink Admin\t1 hour ago\n7 Nov 2026, 14:25:27\n\tInspect\nLatest proximity events\n\nLive WebSocket frames prepended to the snapshot\n\n9\n\nSimulated ESP32 Beacon\n\nVery close\n-62 dBm\n\nDemo Operator · ~1.4 m est. · 7 Nov 2026, 15:15:59\n\n28 minutes ago\n\nSimulated ESP32 Beacon\n\nVery close\n-62 dBm\n\nDemo Operator · ~1.4 m est. · 7 Nov 2026, 15:15:58\n\n28 minutes ago\n\nSimulated ESP32 Beacon\n\nVery close\n-62 dBm\n\nDemo Operator · ~1.4 m est. · 7 Nov 2026, 15:15:57\n\n28 minutes ago\n\nSimulated ESP32 Beacon\n\nVery close\n-63 dBm\n\nDemo Operator · ~1.5 m est. · 7 Nov 2026, 14:51:05\n\n53 minutes ago\n\nSimulated ESP32 Beacon\n\nVery close\n-62 dBm\n\nDemo Operator · ~1.4 m est. · 7 Nov 2026, 14:51:04\n\n53 minutes ago\n\nSimulated ESP32 Beacon\n\nVery close\n-62 dBm\n\nDemo Operator · ~1.4 m est. · 7 Nov 2026, 14:51:04\n\n53 minutes ago\n\nSmoke Beacon\n\nImmediate\n-49 dBm\n\nProxiLink Admin · ~0.3 m est. · 7 Nov 2026, 14:25:27\n\n1 hour ago\n\nSmoke Beacon\n\nImmediate\n-49 dBm\n\nProxiLink Admin · ~0.3 m est. · 7 Nov 2026, 14:24:46\n\n1 hour ago\n\nSmoke Beacon\n\nVery close\n-58 dBm\n\nProxiLink Admin · ~0.9 m est. · 7 Nov 2026, 14:24:00\n\n1 hour ago\nLatest location events\n\nGPS fixes as they arrive\n\n1\n\nProxiLink Admin\n\n52.2297, 21.0122\n\n1.4 m/s · GPS · 7 Nov 2026, 14:24:05\n\n1 hour ago",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Open navigation",
+      "1",
+      "PA",
+      "Refresh snapshot",
+      "Open map",
+      "Reconnect",
+      "Pause feed",
+      "Inspect",
+      "Inspect"
+    ],
+    "screenshot": "documentation\\screenshots\\11-live-mobile.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "12-api-unreachable",
+    "route": "/",
+    "url": "/",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Overview",
+      "Overview",
+      "7-day activity",
+      "Fleet by category",
+      "Network map",
+      "Recent events"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nAPI unreachable\nThe console cannot reach the ProxiLink backend. Showing live server data only — no placeholder values.\nRetry now\n\nCONSOLE\n\nOverview\nLive\nPA\nProxiLink Admin\n\nMONITOR\n\nOverview\n\nFleet health, proximity activity and platform status at a glance. Every figure comes from the ProxiLink API.\n\nAwaiting data\nRefresh\nLive map\n\nAPI unreachable\n\nThe dashboard could not reach the ProxiLink API. Nothing is cached or invented — this view will populate as soon as the backend responds.\n\nNETWORK_ERROR\n\nRetry\n7-day activity\n\nProximity and location events per day, with unique devices reporting\n\nProximity\nLocation\nDevices\n\nAPI unreachable\n\nThe dashboard could not reach the ProxiLink API. Nothing is cached or invented — this view will populate as soon as the backend responds.\n\nNETWORK_ERROR\n\nRetry\nFleet by category\n\nRegistered devices\n\nAPI unreachable\n\nThe dashboard could not reach the ProxiLink API. Nothing is cached or invented — this view will populate as soon as the backend responds.\n\nNETWORK_ERROR\n\nRetry\nNetwork map\n\nActive devices with a reported GPS fix\n\nOpen map\n\nAPI unreachable\n\nThe dashboard could not reach the ProxiLink API. Nothing is cached or invented — this view will populate as soon as the backend responds.\n\nNETWORK_ERROR\n\nRetry\nDevice positions unavailable\nOpenStreetMap tiles · RSSI bands are estimates\nRecent events\n\nNewest first, organization-scoped\n\nProximity\nLocation\n\nAPI unreachable\n\nThe dashboard could not reach the ProxiLink API. Nothing is cached or invented — this view will populate as soon as the backend responds.\n\nNETWORK_ERROR\n\nRetry\nSystem status\nStatus unavailable\nRetry\nStatus unavailable\nFleet statuses refresh every 30 seconds · WS connection state is shown in the top bar\nOnline bands classify signal strength, not distance",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Retry now",
+      "Open navigation",
+      "Notifications",
+      "PA\nProxiLink Admin",
+      "Refresh",
+      "Live map",
+      "Retry",
+      "Retry",
+      "Retry",
+      "Retry",
+      "Proximity",
+      "Location",
+      "Retry",
+      "Retry"
+    ],
+    "screenshot": "documentation\\screenshots\\12-api-unreachable.png",
+    "consoleErrors": [],
+    "failedRequests": [
+      "Fetch ",
+      "Fetch ",
+      "Fetch ",
+      "Fetch ",
+      "Fetch ",
+      "Fetch ",
+      "Fetch ",
+      "Fetch ",
+      "Fetch ",
+      "Fetch ",
+      "Fetch ",
+      "Fetch ",
+      "Fetch ",
+      "Fetch ",
+      "Fetch "
+    ]
+  },
+  {
+    "name": "13-user-forbidden",
+    "route": "/admin/users",
+    "url": "/admin/users",
+    "title": "ProxiLink Console",
+    "headings": [
+      "Users",
+      "Users",
+      "Operator accounts"
+    ],
+    "text": "Skip to content\nProxiLink\nCONSOLE\n\nMONITOR\n\nOverview\nLive monitoring\nMap\n\nMANAGE\n\nDevices\nAnalytics\n\nADMINISTRATION\nADMIN\n\nUsers\nAudit log\nSettings\nPA\nProxiLink Admin\nAcme Labs\n\nV1 · OSM TILES\n\nCONSOLE\n\nUsers\nLive\n1\nPA\nProxiLink Admin\n\nADMINISTRATION\n\nUsers\n\nEnable or disable operator accounts and adjust roles. The backend rejects disabling or demoting your own account.\n\n2 accounts\nRefresh\nOperator accounts\n\nRole changes take effect on the account's next token refresh.\n\nSearch users\nOPERATOR\tORGANIZATION\tROLES\tCREATED\tENABLED\tACCESS LEVEL\n\nP\n\nProxiLink Admin\nYOU\n\nadmin@proxilink.dev\n\n\tAcme Labs\t\nADMIN\nUSER\n\t7 Nov 2026\n1 hour ago\n\t\nEnabled\n\t\nUSER\nADMIN\n\nSelf-demotion is rejected by the server.\n\n\n\nD\n\nDemo Operator\n\ndemo@proxilink.dev\n\n\tAcme Labs\t\nUSER\n\t7 Nov 2026\n1 hour ago\n\t\nEnabled\n\t\nUSER\nADMIN\n\n1–2 of 2\n\nRows per page\n10 / page\n20 / page\n50 / page\n100 / page\nPrev\n1\n\nEnabling/disabling and role changes are audited. USER accounts are scoped to their organization and cannot open Administration routes; ADMIN accounts see all organizations. The API enforces both even if the UI is bypassed.",
+    "buttons": [
+      "Close navigation",
+      "Collapse sidebar",
+      "Sign out",
+      "Open navigation",
+      "1",
+      "PA\nProxiLink Admin",
+      "Refresh",
+      "Disable admin@proxilink.dev",
+      "Disable demo@proxilink.dev",
+      "Prev",
+      "1",
+      "Next page"
+    ],
+    "screenshot": "documentation\\screenshots\\13-user-forbidden.png",
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  {
+    "name": "14-expired-session",
+    "url": "/login",
+    "text": "ProxiLink\nOPERATIONS CONSOLE\n\nBLE proximity · GPS telemetry\n\nKnow what is near, in real time.\n\nOperate registered beacons, watch live proximity bands and GPS fixes, and audit every security-relevant action across your organization — without pretending RSSI is a distance sensor.\n\nBanded proximity\n\nIMMEDIATE → OUT_OF_RANGE, classified server-side from smoothed RSSI.\n\nRealtime channel\n\nWebSocket frames for proximity, location and device status with reconnect and backoff.\n\nOrganization-scoped RBAC\n\nUSER sees its organization; ADMIN unlocks users, audit and platform settings.\n\nOpenStreetMap only\n\nNo API keys, no vendor telemetry, dark basemap tuned for operations.\n\nSpring Boot API · React 19 · Leaflet 1.9 · v1 contract\n\nOperator sign-in\n\nAuthenticate with your ProxiLink account to open the cons",
+    "consoleErrors": [
+      "network: Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+      "network: Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+      "network: Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+      "network: Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+      "network: WebSocket connection to 'ws://localhost:5173/ws?token=expired.invalid.token' failed: HTTP Authentication failed; no valid credentials available"
+    ],
+    "failedRequests": []
+  }
+]

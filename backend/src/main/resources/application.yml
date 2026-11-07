@@ -1,0 +1,93 @@
+server:
+  port: ${SERVER_PORT:8080}
+  compression:
+    enabled: true
+  error:
+    include-message: never
+    include-stacktrace: never
+
+spring:
+  application:
+    name: proxilink-backend
+  profiles:
+    default: dev
+  datasource:
+    url: ${DATABASE_URL:jdbc:h2:file:./data/proxilink;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH}
+    username: ${DATABASE_USER:sa}
+    password: ${DATABASE_PASSWORD:}
+    driver-class-name: ${DATABASE_DRIVER:org.h2.Driver}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: ${JPA_DDL_AUTO:none}
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+  cache:
+    type: caffeine
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      repositories:
+        enabled: false
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    default-property-inclusion: non_null
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: when_authorized
+  health:
+    redis:
+      enabled: ${REDIS_HEALTH_ENABLED:false}
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:}
+    access-token-ttl-seconds: ${JWT_ACCESS_TTL_SECONDS:1800}
+    refresh-token-ttl-days: ${JWT_REFRESH_TTL_DAYS:14}
+  cors:
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173,http://localhost:8081,http://127.0.0.1:5173}
+  websocket:
+    allowed-origins: ${WS_ALLOWED_ORIGINS:*}
+  rate-limit:
+    general-per-minute: ${RATE_LIMIT_GENERAL:240}
+    login-per-minute: ${RATE_LIMIT_LOGIN:10}
+  demo:
+    seed-enabled: ${DEMO_SEED_ENABLED:true}
+    admin-email: ${DEMO_ADMIN_EMAIL:admin@proxilink.dev}
+    admin-password: ${DEMO_ADMIN_PASSWORD:ProxiLink!Demo2026}
+    user-email: ${DEMO_USER_EMAIL:demo@proxilink.dev}
+    user-password: ${DEMO_USER_PASSWORD:ProxiLink!Demo2026}
+  retention:
+    cleanup-enabled: ${RETENTION_CLEANUP_ENABLED:true}
+  redis:
+    enabled: ${REDIS_ENABLED:false}
+  bootstrap:
+    enabled: ${BOOTSTRAP_ADMIN_ENABLED:false}
+    admin-email: ${BOOTSTRAP_ADMIN_EMAIL:}
+    admin-password: ${BOOTSTRAP_ADMIN_PASSWORD:}
+    display-name: ${BOOTSTRAP_ADMIN_NAME:ProxiLink Administrator}
+    organization: ${BOOTSTRAP_ORGANIZATION:ProxiLink}
+
+logging:
+  level:
+    com.proxilink: INFO
+    org.springframework.security: WARN

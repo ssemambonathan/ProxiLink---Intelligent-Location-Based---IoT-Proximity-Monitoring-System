@@ -1,0 +1,45 @@
+# Build outputs
+build/
+out/
+dist/
+.gradle/
+*.class
+*.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Android
+android-app/local.properties
+android-app/app/release/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Node
+node_modules/
+admin-dashboard/.vite/
+*.tsbuildinfo
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Runtime data and secrets
+/backend/data/
+*.db
+*.mv.db
+*.trace.db
+.env
+.env.local
+.env.*.local
+tools/jdk*/
+tools/*.zip
+*.log
+logs/
+
+# Keys / credentials
+secrets/
+*.pem
+*.p12
